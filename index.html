@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de Contatos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="./images/—Pngtree—smart mobile phone transparent png_5883046.png" alt="celular">
+            <h1>Agenda de Contatos</h1>
+        </header>
+
+        <form id="contato-form">
+            <input type="text" id="nome" required placeholder="Nome">
+            <input type="tel" id="telefone" required placeholder="Telefone">
+            
+            <button type="submit" id="cadastrar">Cadastrar</button>
+        </form>
+        
+        <table id="contatos" cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Telefone</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <!-- Linhas de contatos serão adicionadas aqui -->
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
